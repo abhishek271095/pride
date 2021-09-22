@@ -1,11 +1,103 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.banner
+{
+  background-image: url("../src/images/b2.jpg");
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+  background-attachment: fixed;
+}
+.banner1
+{
+  background-image: url("../src/images/b1.jpg");
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+  background-attachment: fixed;
+}
+.banner2
+{
+  background-image: url("../src/images/b3.jpg");
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+  background-attachment: fixed;
+}
+.about
+{
+  background-image: url("../src/images/building7.png");
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  /* background-image: linear-gradient(to right, #5e0cc8, #7f00ac, #8e0094, #93147f, #92286e); */
+  background-color :#160033;
+  background-attachment: fixed;
+}
+
+.rr
+{
+  height:  200px;
+  background-blend-mode: darken;
+  background-color: rgba(11, 10, 24, 0.452);
+  text-align: left;
+}
+.heading
+{
+  padding-top: 20%;
+}
+.blog
+{
+ 
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-image: linear-gradient(to right top, #4a005b, #40005c, #35005d, #26015e, #11035f);
+}
+
+.contact
+{
+
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-image: linear-gradient(to right top, #4a005b, #40005c, #35005d, #26015e, #11035f);
+}
+/* .service
+{
+  background-image: url("../src/images/b1.jpg");
+  height:  100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-image: linear-gradient(to right, #062c67, #222f7c, #402e8e, #62269c, #850da6);
+} */
+
+@media (max-width: 767px) { 
+  .about
+{
+  height:  150vh;
+}
+  .contact
+{
+  height:  180vh;
+}
+.blog
+{
+  height:  180vh;
+}
+
+
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
