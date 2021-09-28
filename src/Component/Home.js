@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import {React} from 'react';
+import { Button, Col, Container, Row} from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel'
 import About from './About.js';
 import Blog from './Blog.js';
@@ -18,40 +18,27 @@ function Home()
             <Carousel>
   <Carousel.Item className="banner">
         
-        <h1 className="text-light text-center display-1 heading" > We Build Brand  </h1>
+        <h1 className="text-light text-center display-1 heading" > Where <span className="text-info"> Green </span> is a way of  <span className="text-info"> Life </span> </h1>
         <Button  variant="light" className="p-1 w-25 mt-5 mx-auto d-block" > READ MORE</Button>
-{/* 
-    <Carousel.Caption>
-      <h3>Home First slide</h3>
-    
-    </Carousel.Caption> */}
+
   </Carousel.Item>
 
   <Carousel.Item className="banner1">
    
-  <h1 className="text-light text-center display-1 heading" > We Build your Dream  </h1>
+  <h1 className="text-light text-center display-1 heading" > We  <span className="text-info"> Build </span> your <span className="text-info"> Dream </span> </h1>
   <Button  variant="light" className="p-1 w-25 mt-5 mx-auto d-block" > READ MORE</Button>
-    {/* <Carousel.Caption>
-      <h3>Home Second slide </h3>
 
-    </Carousel.Caption> */}
   </Carousel.Item>
 
 
   <Carousel.Item  className="banner2">
    
-  <h1 className="text-light text-center display-1 heading" > We Build Money </h1>
+  <h1 className="text-light text-center display-1 heading" > Best <span className="text-info"> builders </span> in India </h1>
   <Button  variant="light" className="p-1 w-25 mt-5 mx-auto d-block" > READ MORE</Button>
 
-    {/* <Carousel.Caption>
-      <h3>Home Slide Third </h3>
-    
-    </Carousel.Caption> */}
   </Carousel.Item>
 </Carousel>
-{/* <About/>
-<Blog/>
-<Service/> */}
+
 
 <Container fluid className="bg-light">
   <h2 className="text-center pt-5  "> About Us </h2> 
@@ -61,19 +48,7 @@ function Home()
     <Col className="abhi" xs={12} md={6}>
     <Image src="../images/building3.png" className="d-block w-100" fluid/>
  
-          {/* <Alert variant="light">
-          <Alert.Heading>Hey, nice to see you</Alert.Heading>
-          <p>
-            Aww yeah, you successfully read this important alert message. This example
-            text is going to run a bit longer so that you can see how spacing within an
-            alert works with this kind of content.
-          </p>
-          <hr />
-          <p className="mb-0">
-            Whenever you need to, be sure to use margin utilities to keep things nice
-            and tidy.
-          </p>
-        </Alert> */}
+
     </Col>
     <Col xs={12} md={6}>
           <Alert variant="">
